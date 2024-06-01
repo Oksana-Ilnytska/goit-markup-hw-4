@@ -512,6 +512,10 @@ margin-bottom: 16px;
     align-items: baseline;
 }
 
+.socials-icon-footer  {
+    fill:#f4f4fd; 
+}
+
 .socials-link-footer { 
     background-color: #4d5ae5;
      width: 40px;
@@ -524,12 +528,10 @@ margin-bottom: 16px;
      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
      }
 
-     .socials-link-footer:hover, .socials-link-footer:focus {
+     .socials-link-footer:hover {
         background-color: #31d0aa; 
      }
 
-     .socials-icon-footer  {
-        fill:#f4f4fd;
-    }
-
-  
+     .socials-link-footer:focus {
+        background-color: #31d0aa; 
+     }
